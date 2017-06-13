@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	div{width: 200px;height: 50px;background: yellow;}
+	</style>
+</head>
+<body>
+	<video src="修炼爱情MV.mp4" autoplay >
+		<div controls="controls"></div>
+	<form>
+		<input type="text" value="" id="yy" class>
+	</form>
+	<button onclick="uu()">按钮</button>
+	<script>
+	function uu(){
+		var t=document.getElementById("yy").value;
+		if(t=="hello"){
+			window.history.go(-1)
+		} else{
+			alert("输入错误！")
+		}
+	}
+		
+	</script>
+</body>
+</html>
